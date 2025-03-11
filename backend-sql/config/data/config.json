@@ -1,0 +1,24 @@
+{
+    "server":{
+        "port": 9026
+    },
+    "app":{
+        "prefix": "/api/books-i"
+    },
+    "url" :{
+
+    },
+    "db": {
+       "user": "root",
+       "password" :"rahul",
+       "host": "localhost",
+       "mysql_db": "employee"
+    },
+    "storedProcedure" :{
+        "SP1":"SP_GetEmployeeData",
+        "SP2":"SP_AddEmployee",
+        "SP3":"SP_GetEmployeeDataByID",
+        "SP4":"SP_UpdateEmployeeData",
+        "SP5":"SP_DeleteEmployee"
+    }
+}

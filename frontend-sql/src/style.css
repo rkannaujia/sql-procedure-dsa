@@ -1,0 +1,27 @@
+.App{
+    height: 100vh;
+    padding: 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.books{
+   
+}
+.book{
+    flex: 1;
+    display: flex;
+}
+.left{
+flex: 1;
+}
+.right{
+flex: 1;
+}
+img{
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+    background-color: lightgreen;
+}
